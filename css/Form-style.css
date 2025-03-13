@@ -5,6 +5,7 @@
 body {
     background-image: url('../media/Background.png');
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .layout {
@@ -23,13 +24,14 @@ h2 {
 
 .input-field {
     margin: auto;
-    padding: auto;
+    padding-left: 10px;
     width: 100%;
-    height: 15px;
-    border-radius: 10px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 20px;
 }
 
-button {
+.button {
     background-color: black;
     border: none;
     border-radius: 20px;

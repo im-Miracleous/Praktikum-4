@@ -45,10 +45,20 @@ table {
 
 .contact-section {
     padding: 20px;
+    background-color: #ecf0f1;
 }
 
 .about-section {
-    padding: -10px 0 0 -15px;
+    padding: 20px;
+}
+
+.skills-section {
+    padding: 20px;
+    background-color: #ecf0f1;
+}
+
+.project-section {
+    padding: 20px;
 }
 
 a:link {
@@ -60,7 +70,7 @@ a:hover#campus-link {
 }
 
 a:hover#project-link {
-    background-color: #ccacff;
+    background-color: #b2b2ff;
 }
 
 .skills-section {
