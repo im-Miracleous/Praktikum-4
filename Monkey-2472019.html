@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monkey</title>
+    <link rel="stylesheet" href="./css/Monkey-style.css">
+    <link rel="icon" type="image/x-icon" href="./media/keyboard.png" />
+</head>
+<body>
+    <!-- LOGO -->
+    <header>
+        <img src="./media/keyboard.png" alt="" id="logo">
+        <h1>MonkeyType</h1>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main>
+        <hr id="line1" class="line">
+
+        <!-- WELCOME SECTION -->
+        <h2>Welcome to MonkeyType</h2>
+        <p id="desc" class="content right">MonkeyType adalah sebuah permainan kata-kata yang berfokus pada kemampuan pencetakan huruf yang cukup.</p>
+        <p id="inst" class="content left">Ketik kata-kata yang muncul di layar secara acak, lalu hitung waktu yang dibutuhkan.</p>
+        <p id="guide" class="content">Klik <a href="#form" class="bold links">disini</a> untuk mulai bermain.</p>
+        <p id="ulterance" class="content">Selamat bermain!</p>
+
+        <hr id="line2" class="line">
+
+        <!-- TYPING EXERCISE -->
+        <p class="paragraph">day shrink buffet security course crouch user biscuit restrict nail timber unity mirror youth opposite tissue favour demand beach spy referee tooth retain reporter banish future voucher eavesdrop eliminate employ stun recording pillow storage isolation girl chest passive index cool degree salad recommend <span class="highlighted">i</span> default team talk shadow amputate quest disturbance <span class="highlighted">am</span> activate manufacture constant hardshib so freight reach chew mislead oral <span class="highlighted">a</span> royalty traction resignation <span class="highlighted">chill</span> wisecrack illness fastidious <span class="highlighted">guy</span> courtesy quiet frequency <span class="highlighted">who</span> revolutionary slogan labour unlike please <span class="highlighted">is</span> lend persist conservative <span class="highlighted">chilling</span> aplied examble <span class="highlighted">:3</span> flourish claim burst tasty democratic action affair fat zone spin bother line track safe failure hut gaffe degree stake</p>
+        <br><br>
+
+        <!-- PLAYER DATA FORM -->
+        <form method="post">
+            <table id="form-table">
+                <tr>
+                    <td class="content">Nama Player:</td>
+                    <td><input type="text" id="name" maxlength="30" required></td>
+                </tr>
+                <tr>
+                    <td class="content">Hidden Message:</td>
+                    <td><textarea id="secret-message" placeholder="{ketik pesan tersembunyi di sini}" required></textarea></td>
+                </tr>
+                <tr>
+                    <td><input id="enter" type="submit" value="Enter"></td>
+                </tr>
+            </table>
+        </form>
+
+        <!-- KEYBOARD UI -->
+        <table id="keyboard">
+            <tr>
+                <td id="keyboard-title" class="special keys" colspan="17">Keyboard Layout</td>
+            </tr>
+            <tr>
+                <td class="keys">Esc</td>
+                <td class="keys">F1</td>
+                <td class="keys">F2</td>
+                <td class="keys">F3</td>
+                <td class="keys">F4</td>
+                <td class="keys">F5</td>
+                <td class="keys">F6</td>
+                <td class="keys">F7</td>
+                <td class="keys">F8</td>
+                <td class="keys">F9</td>
+                <td class="keys">F10</td>
+                <td class="keys">F11</td>
+                <td class="keys">F12</td>
+                <td class="keys">Vol+</td>
+                <td class="keys">Vol-</td>
+                <td class="keys">Mute</td>
+                <td class="keys">Break</td>
+            </tr>
+            <tr>
+                <td class="keys">~</td>
+                <td class="keys">1</td>
+                <td class="keys">2</td>
+                <td class="keys">3</td>
+                <td class="keys">4</td>
+                <td class="keys">5</td>
+                <td class="keys">6</td>
+                <td class="keys">7</td>
+                <td class="keys">8</td>
+                <td class="keys">9</td>
+                <td class="keys">0</td>
+                <td class="keys">-</td>
+                <td class="keys">=</td>
+                <td class="special keys right" colspan="2">Backspace</td>
+                <td class="keys">Del</td>
+                <td class="keys">Ins</td>
+            </tr>
+            <tr>
+                <td class="special keys left" colspan="2">Tab</td>
+                <td class="keys">Q</td>
+                <td class="keys">W</td>
+                <td class="keys">E</td>
+                <td class="keys">R</td>
+                <td class="keys">T</td>
+                <td class="keys">Y</td>
+                <td class="keys">U</td>
+                <td class="keys">I</td>
+                <td class="keys">O</td>
+                <td class="keys">P</td>
+                <td class="keys">[</td>
+                <td class="keys">]</td>
+                <td class="keys">\</td>
+                <td class="keys">Home</td>
+                <td class="keys">End</td>
+            </tr>
+            <tr>
+                <td class="special keys left" colspan="2">Caps Lock</td>
+                <td class="keys">A</td>
+                <td class="keys">S</td>
+                <td class="keys">D</td>
+                <td class="keys">F</td>
+                <td class="keys">G</td>
+                <td class="keys">H</td>
+                <td class="keys">J</td>
+                <td class="keys">K</td>
+                <td class="keys">L</td>
+                <td class="keys">;</td>
+                <td class="keys">'</td>
+                <td class="special keys right" colspan="2">Enter</td>
+                <td class="special keys middle">&hearts;&clubs;</td>
+                <td class="keys">PgUp</td>
+            </tr>
+            <tr>
+                <td class="special keys left" colspan="2">Shift</td>
+                <td class="keys">Z</td>
+                <td class="keys">X</td>
+                <td class="keys">C</td>
+                <td class="keys">V</td>
+                <td class="keys">B</td>
+                <td class="keys">N</td>
+                <td class="keys">M</td>
+                <td class="keys">,</td>
+                <td class="keys">.</td>
+                <td class="keys">/</td>
+                <td class="special keys right" colspan="3">Shift</td>
+                <td class="keys">&uarr;</td>
+                <td class="keys">PgDn</td>
+            </tr>
+            <tr>
+                <td class="keys">Ctrl</td>
+                <td class="keys">Win</td>
+                <td class="keys">Alt</td>
+                <td class="special keys middle" colspan="7">Space</td>
+                <td class="keys">Alt</td>
+                <td class="keys">Win</td>
+                <td class="keys">Menu</td>
+                <td class="keys">Ctrl</td>
+                <td class="keys">&larr;</td>
+                <td class="keys">&darr;</td>
+                <td class="keys">&rarr;</td>
+            </tr>
+        </table>
+        <br><br><br><br>
+        <hr class="line">
+    </main>
+
+    <!-- CREDITS -->
+    <footer>
+        <p class="credits middle">Copyright &copy; 2025 - 2472019. All rights reserved.</p>
+        <p class="credits middle">Powered by <a href="https://w3schools.com" class="bold links" target="_blank">W3Schools</a></p>
+        <p class="middle"><a href="" class="bold links" target="_blank">Source Code</a></p>
+    </footer>
+</body>
+</html>
